@@ -1,7 +1,7 @@
-class fib{
+//printing 10 fibonacci series using java
+class fibonacci{
     public static void main(String[] args) {
         int f=10,fib;
-
         for(int x=0; x<=f;x++){
             if(x<=1){
                 fib = x;
@@ -9,10 +9,7 @@ class fib{
             else{
                 fib = (x-1) + (x-2);
             }
-
-            System.out.print(fib+" ");
-        }
-
-       
+             System.out.print(fib+" ");
+        }  
     }
 }      
